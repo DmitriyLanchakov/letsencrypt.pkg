@@ -1,0 +1,5 @@
+dh-virtualenv
+
+This package provides a dh sequencer that helps you to deploy your virtualenv wrapped installation inside a Debian package.
+
+Sources: https://github.com/spotify/dh-virtualenv
