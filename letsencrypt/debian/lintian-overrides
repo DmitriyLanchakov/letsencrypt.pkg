@@ -1,0 +1,11 @@
+letsencrypt: arch-dependent-file-in-usr-share
+letsencrypt: hardening-no-fortify-functions
+letsencrypt: package-contains-vcs-control-file
+letsencrypt: extra-license-file
+letsencrypt: embedded-javascript-library
+letsencrypt: backup-file-in-package
+letsencrypt: binary-without-manpage
+letsencrypt: wrong-path-for-interpreter
+letsencrypt: interpreter-not-absolute
+letsencrypt: executable-not-elf-or-script
+letsencrypt: script-not-executable

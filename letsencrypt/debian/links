@@ -1,0 +1,3 @@
+etc/ssl/certs/ca-certificates.crt			usr/share/python/letsencrypt/lib/python2.7/site-packages/requests/cacert.pem
+usr/share/python/letsencrypt/bin/letsencrypt		usr/bin/letsencrypt
+usr/share/python/letsencrypt/bin/letsencrypt-renewer	usr/bin/letsencrypt-renewer
