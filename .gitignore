@@ -1,0 +1,14 @@
+build
+
+*.dsc
+*.deb
+*.tar.*
+*.changes
+*.build
+
+letsencrypt/pip
+letsencrypt/debian/files
+letsencrypt/debian/letsencrypt
+letsencrypt/debian/letsencrypt.debhelper.log
+letsencrypt/debian/letsencrypt.postinst.debhelper
+letsencrypt/debian/letsencrypt.substvars

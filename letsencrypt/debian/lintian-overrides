@@ -9,3 +9,4 @@ letsencrypt: wrong-path-for-interpreter
 letsencrypt: interpreter-not-absolute
 letsencrypt: executable-not-elf-or-script
 letsencrypt: script-not-executable
+letsencrypt: package-installs-python-bytecode
