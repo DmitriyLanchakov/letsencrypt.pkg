@@ -11,8 +11,6 @@ if [ -z "${PIP_DOWNLOAD_CACHE}" ]; then
 	exit 1
 fi
 
-find "${CURDIR}/pip/" -size +0c -print0 | xargs -r -0 rm
-
 for FILE in $(ls -1 "${PIP_DOWNLOAD_CACHE}" | egrep -v ".content-type")
 do
 	URL=$(echo "${FILE}" | sed -e "s|%2F|/|g" | sed -e "s|%3A|:|g")
