@@ -4,7 +4,7 @@
 
 ### How to use
 
-Open [letsencrypt package page](https://build.opensuse.org/package/show/home:antonbatenev:letsencrypt/letsencrypt), follow "Download package" link, choose your distro, follow instructions, enjoy!
+Open [letsencrypt package page](http://software.opensuse.org/download.html?project=home:antonbatenev:letsencrypt&package=letsencrypt), choose your distro, follow instructions, enjoy!
 
 ### How to build
 
