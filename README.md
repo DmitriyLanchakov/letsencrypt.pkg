@@ -1,6 +1,6 @@
 ## letsencrypt.pkg
 
-Let's encrypt package for Debian / Ubuntu.
+[Let's encrypt](https://letsencrypt.org) package for Debian / Ubuntu.
 
 ### How to use
 
