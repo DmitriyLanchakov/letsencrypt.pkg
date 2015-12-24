@@ -17,6 +17,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends},
  python,
  openssl,
  dialog,
+ libaugeas0,
  ca-certificates
 Description: Let's Encrypt main client
  The objective of Let's Encrypt and the ACME (Automated Certificate
