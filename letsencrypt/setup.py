@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='letsencrypt',
-      version='0.3.0',
+      version='0.4.2',
       author=u'Anton Batenev',
       author_email='antonbatenev@yandex.ru',
       url='https://github.com/letsencrypt/letsencrypt.git',
