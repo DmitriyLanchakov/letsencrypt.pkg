@@ -1,5 +1,5 @@
-letsencrypt (0.4.2) unstable; urgency=low
+letsencrypt (0.5.0) unstable; urgency=low
 
   * Initial release
 
- -- Anton Batenev <antonbatenev@yandex.ru>  Fri, 04 Mar 2016 13:28:35 +0300
+ -- Anton Batenev <antonbatenev@yandex.ru>  Fri, 15 Apr 2016 12:57:00 +0300
