@@ -2,7 +2,7 @@
   <service name="download_url">
      <param name="protocol">https</param>
      <param name="host">github.com</param>
-     <param name="path">/spotify/dh-virtualenv/archive/0.10.tar.gz</param>
-     <param name="filename">dh-virtualenv-0.10.tar.gz</param>
+     <param name="path">/spotify/dh-virtualenv/archive/0.11.tar.gz</param>
+     <param name="filename">dh-virtualenv-0.11.tar.gz</param>
   </service>
 </services>
