@@ -1,4 +1,4 @@
-letsencrypt (0.7.0) unstable; urgency=low
+certbot (0.8.0) unstable; urgency=low
 
   * Initial release
 

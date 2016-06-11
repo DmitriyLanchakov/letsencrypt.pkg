@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export OBS = $(shell test "$(CURDIR)" = "/usr/src/packages/BUILD" && echo "yes" || echo "")
+export PIP_DOWNLOAD_CACHE = $(shell test -z "${OBS}" && echo "$(CURDIR)/../build/pip" || echo "")
+export DH_VIRTUALENV_ARGS = $(shell test -n "${OBS}" && echo "--extra-pip-arg \"--no-index\" --extra-pip-arg \"--find-links=file://$(CURDIR)/pip\"" || echo "")
+
+%:
+	dh $@ --with python-virtualenv
+
+override_dh_virtualenv:
+	test -n "${OBS}" && echo "[easy_install]"              > ~/.pydistutils.cfg || true
+	test -n "${OBS}" && echo "find_links = $(CURDIR)/pip" >> ~/.pydistutils.cfg || true
+
+	dh_virtualenv -v --no-test ${DH_VIRTUALENV_ARGS}
+
+	test -z "${OBS}" && $(CURDIR)/copy-pip.sh || true

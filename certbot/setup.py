@@ -2,10 +2,10 @@
 
 from setuptools import setup
 
-setup(name='letsencrypt',
-      version='0.7.0',
+setup(name='certbot',
+      version='0.8.0',
       author=u'Anton Batenev',
       author_email='antonbatenev@yandex.ru',
-      url='https://github.com/letsencrypt/letsencrypt.git',
+      url='https://github.com/certbot/certbot.git',
       description='Dummy package to make dh_virtualenv work',
 )

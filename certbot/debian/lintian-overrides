@@ -1,0 +1,12 @@
+certbot: arch-dependent-file-in-usr-share
+certbot: hardening-no-fortify-functions
+certbot: package-contains-vcs-control-file
+certbot: extra-license-file
+certbot: embedded-javascript-library
+certbot: backup-file-in-package
+certbot: binary-without-manpage
+certbot: wrong-path-for-interpreter
+certbot: interpreter-not-absolute
+certbot: executable-not-elf-or-script
+certbot: script-not-executable
+certbot: package-installs-python-bytecode

@@ -1,0 +1,8 @@
+compression = "bzip2"
+compression-level = 9
+tar-ignore = .gitignore
+tar-ignore = debian/files
+tar-ignore = debian/
+tar-ignore = debian/.debhelper.log
+tar-ignore = debian/.postinst.debhelper
+tar-ignore = debian/.substvars
