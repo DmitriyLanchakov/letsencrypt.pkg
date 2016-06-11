@@ -1,4 +1,7 @@
 mock==1.0.1
+cryptography==1.1.1
+pyOpenSSL==0.15.1
+acme
 certbot
 certbot-nginx
 certbot-apache
