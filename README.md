@@ -6,7 +6,7 @@
 
 Open [letsencrypt package page](http://software.opensuse.org/download.html?project=home:antonbatenev:letsencrypt&package=letsencrypt), choose your distro, follow instructions, enjoy!
 
-Since 0.8.0 version `letsencrypt` renamed to `certbot`. For certbot use [certbot package page](http://software.opensuse.org/download.html?project=home:antonbatenev:letsencrypt&package=certbot).
+Since version 0.8.0 `letsencrypt` renamed to `certbot`. For certbot use [certbot package page](http://software.opensuse.org/download.html?project=home:antonbatenev:letsencrypt&package=certbot).
 
 ### How to build
 
