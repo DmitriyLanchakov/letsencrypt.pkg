@@ -1,5 +1,5 @@
-certbot (0.8.0) unstable; urgency=low
+certbot (0.8.1) unstable; urgency=low
 
   * Initial release
 
- -- Anton Batenev <antonbatenev@yandex.ru>  Fri, 10 Jun 2016 22:07:32 +0300
+ -- Anton Batenev <antonbatenev@yandex.ru>  Mon, 11 Jul 2016 14:15:13 +0300

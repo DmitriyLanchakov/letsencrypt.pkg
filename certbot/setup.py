@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='certbot',
-      version='0.8.0',
+      version='0.8.1',
       author=u'Anton Batenev',
       author_email='antonbatenev@yandex.ru',
       url='https://github.com/certbot/certbot.git',
